@@ -192,6 +192,7 @@
       m.top.video.seek = previousCuePoint.start + 1
       m.top.snapbackTime = seekEndTime
       m.top.inSnapback = true
+      m.top.video.enableTrickPlay = false
     end if
   end sub
 
